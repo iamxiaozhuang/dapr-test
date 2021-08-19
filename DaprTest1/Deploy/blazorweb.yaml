@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blazorweb
+  namespace: dapr-test1
+  labels:
+    app: blazorweb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: blazorweb
+  template:
+    metadata:
+      labels:
+        app: blazorweb
+      annotations:
+        dapr.io/enabled: "true"
+        dapr.io/app-id: "blazorweb"
+        dapr.io/app-port: "80"
+        dapr.io/config: "dapr-config"
+    spec:
+      containers:
+      - name: blazorweb
+        image: dapr-test1/blazorweb:1.0
+        imagePullPolicy: IfNotPresent
+        ports:
+          - name: http
+            containerPort: 80
+            protocol: TCP

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "lhxoTgxDZvZoJLmgxcR7EnnNdS2NaDyBAoonjY3ZVq+RDI6cxtqLAvX7nxjJ8UA58ibLlxY1KVn71BfpXnx4vw==",
+  "success": true,
+  "projectFilePath": "D:\\K8s\\Dapr\\Test\\DaprTest1\\ServiceApi\\DaprTest1.ServiceApi1\\DaprTest1.ServiceApi1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pesu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\pesu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\pesu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+    "C:\\Users\\pesu\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\pesu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\pesu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\pesu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

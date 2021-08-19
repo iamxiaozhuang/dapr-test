@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: serviceapi1
+  namespace: dapr-test1
+  labels:
+    app: serviceapi1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: serviceapi1
+  template:
+    metadata:
+      labels:
+        app: serviceapi1
+      annotations:
+        dapr.io/enabled: "true"
+        dapr.io/app-id: "serviceapi1"
+        dapr.io/app-port: "80"
+        dapr.io/config: "dapr-config"
+    spec:
+      containers:
+      - name: serviceapi1
+        image: dapr-test1/serviceapi1:1.0
+        imagePullPolicy: IfNotPresent
+        ports:
+          - name: http
+            containerPort: 80
+            protocol: TCP
