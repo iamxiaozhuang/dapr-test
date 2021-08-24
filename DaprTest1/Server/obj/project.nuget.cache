@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/H+6M9cU+pa6t3NqfVdIt2qpRdiRaYrKSKkqqXNw5ggB/mrY+BudtlmS6yc78CXBMr6cW2MSi2vsaTFAayTe5w==",
+  "dgSpecHash": "rJPfpqZorhfmuw8ZNsqrjQnXg23Hh2dpPGNOQClB3LSCbrmH0ukyoVyzV19KNOek58ctNd9/V1SLnyYoUFw18g==",
   "success": true,
-  "projectFilePath": "D:\\K8s\\Dapr\\Test\\DaprTest1\\Server\\DaprTest1.Server.csproj",
+  "projectFilePath": "D:\\K8s\\Dapr\\Test\\dapr-test\\DaprTest1\\Server\\DaprTest1.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pesu\\.nuget\\packages\\dapr.client\\1.3.0\\dapr.client.1.3.0.nupkg.sha512",
     "C:\\Users\\pesu\\.nuget\\packages\\google.api.commonprotos\\2.2.0\\google.api.commonprotos.2.2.0.nupkg.sha512",

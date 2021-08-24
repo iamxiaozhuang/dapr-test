@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gwvQ/2ukzcN70cvKrplhjelr99eSdMLl2m32RMDwYZAWPtFdtJtAsYmlQy09UkVc9CJjmnebekeRI7B63pTShQ==",
+  "dgSpecHash": "Tn56W9kGlbDu/YvZnpotBO17YHNwAn00227iRqQkR6ubS0Ve3+ByyVlBb9kjr3o9WInCPEepBSuztaEDb06EVQ==",
   "success": true,
-  "projectFilePath": "D:\\K8s\\Dapr\\Test\\DaprTest1\\Client\\DaprTest1.Client.csproj",
+  "projectFilePath": "D:\\K8s\\Dapr\\Test\\dapr-test\\DaprTest1\\Client\\DaprTest1.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pesu\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.7\\microsoft.aspnetcore.authorization.5.0.7.nupkg.sha512",
     "C:\\Users\\pesu\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.7\\microsoft.aspnetcore.components.5.0.7.nupkg.sha512",

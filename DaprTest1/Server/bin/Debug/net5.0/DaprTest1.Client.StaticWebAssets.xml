@@ -1,4 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\K8s\Dapr\Test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="D:\K8s\Dapr\Test\DaprTest1\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\scopedcss\bundle\" />
 </StaticWebAssets>
