@@ -21,3 +21,4 @@ D:\K8s\Dapr\Test\dapr-test\DaprTest1\Shared\obj\Debug\net5.0\DaprTest1.Shared.cs
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Shared\obj\Debug\net5.0\DaprTest1.Shared.dll
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Shared\obj\Debug\net5.0\ref\DaprTest1.Shared.dll
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Shared\obj\Debug\net5.0\DaprTest1.Shared.pdb
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Shared\obj\Debug\net5.0\DaprTest1.Shared.csproj.AssemblyReference.cache

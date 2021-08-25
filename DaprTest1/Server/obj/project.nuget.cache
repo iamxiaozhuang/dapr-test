@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rJPfpqZorhfmuw8ZNsqrjQnXg23Hh2dpPGNOQClB3LSCbrmH0ukyoVyzV19KNOek58ctNd9/V1SLnyYoUFw18g==",
+  "dgSpecHash": "ZQMlj5dG06NvJBHnb5QQdtnZuJP9cuGSOGA/bQw+Makk5zfd3FziS5q9qgavZhHubbHDxDaZmpwF6n6KNxpGrA==",
   "success": true,
   "projectFilePath": "D:\\K8s\\Dapr\\Test\\dapr-test\\DaprTest1\\Server\\DaprTest1.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pesu\\.nuget\\packages\\dapr.aspnetcore\\1.3.0\\dapr.aspnetcore.1.3.0.nupkg.sha512",
     "C:\\Users\\pesu\\.nuget\\packages\\dapr.client\\1.3.0\\dapr.client.1.3.0.nupkg.sha512",
     "C:\\Users\\pesu\\.nuget\\packages\\google.api.commonprotos\\2.2.0\\google.api.commonprotos.2.2.0.nupkg.sha512",
     "C:\\Users\\pesu\\.nuget\\packages\\google.protobuf\\3.13.0\\google.protobuf.3.13.0.nupkg.sha512",

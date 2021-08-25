@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Dapr.AspNetCore/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Dapr.Client": "1.3.0",
+          "System.IO.Pipelines": "4.7.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Dapr.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Dapr.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Dapr.Client/1.3.0": {
         "type": "package",
         "dependencies": {
@@ -471,6 +487,20 @@
     }
   },
   "libraries": {
+    "Dapr.AspNetCore/1.3.0": {
+      "sha512": "yOXO6swGWO4FgwbzzdQtVtAeGvPs6cps4Sd35cWNWivTim6q80eoxECJ8rtS04BsgA0MV01SAI8oqk2zy/MvHg==",
+      "type": "package",
+      "path": "dapr.aspnetcore/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapr.aspnetcore.1.3.0.nupkg.sha512",
+        "dapr.aspnetcore.nuspec",
+        "images/logo-transparent.png",
+        "lib/netcoreapp3.1/Dapr.AspNetCore.dll",
+        "lib/netcoreapp3.1/Dapr.AspNetCore.xml"
+      ]
+    },
     "Dapr.Client/1.3.0": {
       "sha512": "9c1a3T6RuXUBMXYmlNr7AKWkv2O4Wy4432Hc480oU54gqMdXWc9x+37/KcBbl9u8ChexjV0ccitZ4w+cWmOe9g==",
       "type": "package",
@@ -1279,6 +1309,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Dapr.AspNetCore >= 1.3.0",
       "Dapr.Client >= 1.3.0",
       "DaprTest1.Client >= 1.0.0",
       "DaprTest1.Shared >= 1.0.0",
@@ -1340,6 +1371,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Dapr.AspNetCore": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
           "Dapr.Client": {
             "target": "Package",
             "version": "[1.3.0, )"

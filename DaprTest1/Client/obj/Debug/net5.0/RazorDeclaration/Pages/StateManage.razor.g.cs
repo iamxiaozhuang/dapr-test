@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace DaprTest1.Client.Shared
+namespace DaprTest1.Client.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,22 @@ using DaprTest1.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\StateManage.razor"
+using DaprTest1.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\StateManage.razor"
+using System.Text.Json;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/statemanage")]
+    public partial class StateManage : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,20 +105,32 @@ using DaprTest1.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Shared\NavMenu.razor"
+#line 20 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\StateManage.razor"
        
-    private bool collapseNavMenu = true;
+    private StateModel stateModel = new StateModel() { Key = "TestStateKey" };
+    private string stateValue = "";
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    private async Task SaveStateValue()
     {
-        collapseNavMenu = !collapseNavMenu;
+        await Http.PostAsJsonAsync<StateModel>("WeatherForecast/SaveStateValue", stateModel);
+    }
+    private async Task DeleteStateValue()
+    {
+        await Http.DeleteAsync("WeatherForecast/DeleteStateValue/" + stateModel.Key);
+    }
+      private async Task GetStateValue()
+    {
+        stateValue = await Http.GetStringAsync("WeatherForecast/GetStateValue/" + stateModel.Key);
+    }
+     private async Task GetStateValueFromState()
+    {
+        stateValue = await Http.GetStringAsync("WeatherForecast/GetStateValueFromState/" + stateModel.Key);
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

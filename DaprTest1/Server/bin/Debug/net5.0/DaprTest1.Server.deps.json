@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "DaprTest1.Server/1.0.0": {
         "dependencies": {
+          "Dapr.AspNetCore": "1.3.0",
           "Dapr.Client": "1.3.0",
           "DaprTest1.Client": "1.0.0",
           "DaprTest1.Shared": "1.0.0",
@@ -320,6 +321,21 @@
         },
         "compile": {
           "DaprTest1.Server.dll": {}
+        }
+      },
+      "Dapr.AspNetCore/1.3.0": {
+        "dependencies": {
+          "Dapr.Client": "1.3.0",
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Dapr.AspNetCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Dapr.AspNetCore.dll": {}
         }
       },
       "Dapr.Client/1.3.0": {
@@ -2326,6 +2342,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapr.AspNetCore/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yOXO6swGWO4FgwbzzdQtVtAeGvPs6cps4Sd35cWNWivTim6q80eoxECJ8rtS04BsgA0MV01SAI8oqk2zy/MvHg==",
+      "path": "dapr.aspnetcore/1.3.0",
+      "hashPath": "dapr.aspnetcore.1.3.0.nupkg.sha512"
     },
     "Dapr.Client/1.3.0": {
       "type": "package",

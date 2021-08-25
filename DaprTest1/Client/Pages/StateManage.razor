@@ -1,0 +1,40 @@
+﻿@page "/statemanage"
+@using DaprTest1.Shared
+@using System.Text.Json
+@inject HttpClient Http
+
+<h1>状态存储</h1>
+
+<p>This component demonstrates storing state.</p>
+
+<p>状态键: TestStateKey, 状态值：<input type="text" @bind="stateModel.Value" /></p>
+
+<button class="btn btn-primary" @onclick="SaveStateValue">保存状态</button>
+<button class="btn btn-primary" @onclick="DeleteStateValue">删除状态</button>
+<button class="btn btn-primary" @onclick="GetStateValue">获取状态</button>
+<button class="btn btn-primary" @onclick="GetStateValueFromState">获取状态[FromState]</button>
+
+
+<p>获取到的状态值: @stateValue</p>
+
+@code {
+    private StateModel stateModel = new StateModel() { Key = "TestStateKey" };
+    private string stateValue = "";
+
+    private async Task SaveStateValue()
+    {
+        await Http.PostAsJsonAsync<StateModel>("WeatherForecast/SaveStateValue", stateModel);
+    }
+    private async Task DeleteStateValue()
+    {
+        await Http.DeleteAsync("WeatherForecast/DeleteStateValue/" + stateModel.Key);
+    }
+      private async Task GetStateValue()
+    {
+        stateValue = await Http.GetStringAsync("WeatherForecast/GetStateValue/" + stateModel.Key);
+    }
+     private async Task GetStateValueFromState()
+    {
+        stateValue = await Http.GetStringAsync("WeatherForecast/GetStateValueFromState/" + stateModel.Key);
+    }
+}

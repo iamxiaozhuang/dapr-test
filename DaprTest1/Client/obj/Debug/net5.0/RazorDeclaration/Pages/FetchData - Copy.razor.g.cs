@@ -83,14 +83,14 @@ using DaprTest1.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\FetchData.razor"
+#line 2 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\FetchData - Copy.razor"
 using DaprTest1.Shared;
 
 #line default
 #line hidden
 #nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
-    public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class FetchData___Copy : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,7 +98,7 @@ using DaprTest1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\FetchData.razor"
+#line 38 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\FetchData - Copy.razor"
        
     private WeatherForecast[] forecasts;
 
@@ -111,7 +111,7 @@ using DaprTest1.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 54 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\FetchData.razor"
+#line 54 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\FetchData - Copy.razor"
            
     }
 

@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace DaprTest1.Client.Shared
+namespace DaprTest1.Client.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,15 @@ using DaprTest1.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\ServiceInvoke.razor"
+using DaprTest1.Shared;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/serviceinvoke")]
+    public partial class ServiceInvoke : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,20 +98,28 @@ using DaprTest1.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Shared\NavMenu.razor"
+#line 38 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\ServiceInvoke.razor"
        
-    private bool collapseNavMenu = true;
+    private WeatherForecast[] forecasts;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    protected override async Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
-    }
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 54 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\ServiceInvoke.razor"
+           
+    }
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

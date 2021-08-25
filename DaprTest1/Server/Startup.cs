@@ -26,9 +26,8 @@ namespace DaprTest1.Server
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddDapr();
             services.AddRazorPages();
-
             services.AddScoped<InvocationHandler>();
 
             // ×¢ÈëhttpClient

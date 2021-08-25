@@ -132,3 +132,5 @@ D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\obj\Debug\net5.0\DaprTest1.Server.dl
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\obj\Debug\net5.0\ref\DaprTest1.Server.dll
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\obj\Debug\net5.0\DaprTest1.Server.pdb
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\obj\Debug\net5.0\DaprTest1.Server.genruntimeconfig.cache
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\bin\Debug\net5.0\Dapr.AspNetCore.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\obj\Debug\net5.0\DaprTest1.Server.MvcApplicationPartsAssemblyInfo.cs
