@@ -26,7 +26,7 @@ namespace DaprTest1.ServiceApi1
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers().AddDapr();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DaprTest1.ServiceApi1", Version = "v1" });
@@ -47,8 +47,11 @@ namespace DaprTest1.ServiceApi1
 
             app.UseAuthorization();
 
+            app.UseCloudEvents();
+
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapSubscribeHandler();
                 endpoints.MapControllers();
             });
         }

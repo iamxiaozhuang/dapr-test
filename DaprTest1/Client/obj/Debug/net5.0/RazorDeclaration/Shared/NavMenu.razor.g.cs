@@ -90,7 +90,7 @@ using DaprTest1.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Shared\NavMenu.razor"
+#line 38 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

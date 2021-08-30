@@ -1272,3 +1272,7 @@ D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\RazorDeclaration\Pa
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\Razor\Pages\ServiceInvoke.razor.g.cs
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\StateManage.razor.g.cs
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\Razor\Pages\StateManage.razor.g.cs
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\NavMenu.razor.g.cs
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\PubSub.razor.g.cs
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\Razor\Pages\NavMenu.razor.g.cs
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\Razor\Pages\PubSub.razor.g.cs

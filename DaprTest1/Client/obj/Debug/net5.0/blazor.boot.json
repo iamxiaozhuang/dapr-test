@@ -195,12 +195,12 @@
       "mscorlib.dll": "sha256-9AZ7YsJz\/p2gr4E0EQXdHBqwDxoXqtzxhqC6aRsa2K8=",
       "netstandard.dll": "sha256-yOOty6BTX3e57YAEHK5a4nku\/lj0vi7jg\/eQZAjbDQk=",
       "System.Private.CoreLib.dll": "sha256-rraBQp6NevIQiELPVfDFDl5pv9QVJqCiZhB5bkpiZ88=",
-      "DaprTest1.Shared.dll": "sha256-lyV82yjPlTPR4ZLl+2oNW5GUJzXMZmDdimr2B\/93+sQ=",
-      "DaprTest1.Client.dll": "sha256-g2zqwGSAdGbHHGy+b9auLhpnjNFBSUFczRloJytQUSM="
+      "DaprTest1.Shared.dll": "sha256-B4ES6auW5IJx3+GKetinvx76fbwMsRB0a7PnfXwBxQw=",
+      "DaprTest1.Client.dll": "sha256-6UeS0HzkruEAuUZXCdOw3HuZdN4\/8xEcPvuuwgYh+yQ="
     },
     "lazyAssembly": null,
     "pdb": {
-      "DaprTest1.Client.pdb": "sha256-BX8aJAVJJNfoC5EwzJH\/DqkTCLh+9MVulJp1wSpFXMA="
+      "DaprTest1.Client.pdb": "sha256-mIwOtOFdlyPoqz82rOOaNXZ7oldDINwXdOPPZqdGgFs="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-L2vkcKzmXJtf+J7db5TbDMBckrgqJ5qc0ZzVIdRlm0I=",

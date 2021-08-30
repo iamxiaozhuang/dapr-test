@@ -58,5 +58,11 @@ namespace DaprTest1.Server.Controllers
         {
             return await Task.FromResult(stateEntry.Value);
         }
+
+        [HttpPost(nameof(PublishTestEvent))]
+        public async Task PublishTestEvent(TestEventModel eventModel)
+        {
+            await _daprClient.PublishEventAsync<TestEventModel>("pubsub", "TestEventName", eventModel);
+        }
     }
 }

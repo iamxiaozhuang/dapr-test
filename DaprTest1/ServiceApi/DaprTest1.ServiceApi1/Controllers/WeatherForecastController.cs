@@ -1,4 +1,6 @@
-﻿using DaprTest1.Shared;
+﻿using Dapr;
+using Dapr.Client;
+using DaprTest1.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -35,6 +37,13 @@ namespace DaprTest1.ServiceApi1.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [Topic("pubsub", "TestEventName")]
+        [HttpPost(nameof(SubscribleTestEvent))]
+        public async Task SubscribleTestEvent(TestEventModel eventModel)
+        {
+             await Task.CompletedTask;
         }
     }
 }

@@ -60,3 +60,10 @@ D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\obj\Debug\
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\obj\Debug\net5.0\ref\DaprTest1.ServiceApi1.dll
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\obj\Debug\net5.0\DaprTest1.ServiceApi1.pdb
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\obj\Debug\net5.0\DaprTest1.ServiceApi1.genruntimeconfig.cache
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\bin\Debug\net5.0\Dapr.AspNetCore.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\bin\Debug\net5.0\Dapr.Client.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\bin\Debug\net5.0\Google.Api.CommonProtos.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\bin\Debug\net5.0\Google.Protobuf.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\bin\Debug\net5.0\Grpc.Core.Api.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\bin\Debug\net5.0\Grpc.Net.Client.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\ServiceApi\DaprTest1.ServiceApi1\bin\Debug\net5.0\Grpc.Net.Common.dll
