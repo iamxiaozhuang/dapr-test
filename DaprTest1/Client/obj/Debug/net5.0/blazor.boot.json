@@ -7,8 +7,10 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "AntDesign.dll": "sha256-YMdy4dn\/CcSMiK86YT44YSc9QKtb1bUFALM4t7OVTzw=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-kc2VPvpVo2nTNaP8zwT2XM7j0zgRIkQytHYxFzW2XAE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-NPVu9TiPMad4eIdUMD4DshGwyPEoy2VgddHYPYzK2AI=",
+      "Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll": "sha256-VGaB03HIjFg4jeK7BomIFzlhhY3vW5N+jWuRqZkbJsY=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-eewMvS4jcQbQjRdJEeA+5oJzuhK3lpp0aJqGOZzyEB4=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-WTueeagUpF\/sL4iXBtyXPueSJ5WHana51FCIUbYLaF0=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-W1VSTl7qsJbBuFuhk5k+YGXtEO9WFkg9uNiBeVYQnfs=",
@@ -29,6 +31,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-f2PgoftqEkKRuuiAk6S1MHygOuqZBHzB0HOB3vR93TU=",
       "Microsoft.JSInterop.dll": "sha256-WNtvSVKeBJshuvQBXMrnytFHgfCNoU67w7uou3Jcz8w=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-D\/H0cYPGORjCt+3sLCM+KB0lVo8i\/fKjVi2cMhJM1YQ=",
+      "OneOf.dll": "sha256-K99lDyL6VrtTDYGRk5o+Q3caW25Uogee\/1e7aIvpgLY=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
       "Microsoft.CSharp.dll": "sha256-twUgoMqRCjMxtXUIYt\/QO2nXdwn36f5Nz240MccEpOQ=",
       "Microsoft.VisualBasic.Core.dll": "sha256-RUn00o3YkpuvHph4uivfeOWDNhB7YxKW6e9szvw225k=",
@@ -196,11 +199,11 @@
       "netstandard.dll": "sha256-yOOty6BTX3e57YAEHK5a4nku\/lj0vi7jg\/eQZAjbDQk=",
       "System.Private.CoreLib.dll": "sha256-rraBQp6NevIQiELPVfDFDl5pv9QVJqCiZhB5bkpiZ88=",
       "DaprTest1.Shared.dll": "sha256-B4ES6auW5IJx3+GKetinvx76fbwMsRB0a7PnfXwBxQw=",
-      "DaprTest1.Client.dll": "sha256-6UeS0HzkruEAuUZXCdOw3HuZdN4\/8xEcPvuuwgYh+yQ="
+      "DaprTest1.Client.dll": "sha256-6AR6QeNeHXVuPfHJCz+qasM3paeWoP3g1RW1X02CTGw="
     },
     "lazyAssembly": null,
     "pdb": {
-      "DaprTest1.Client.pdb": "sha256-mIwOtOFdlyPoqz82rOOaNXZ7oldDINwXdOPPZqdGgFs="
+      "DaprTest1.Client.pdb": "sha256-xUOxCSB2O6P2d8kMhgRcIDJ0X5CMZL7iO3Eo6MPjAl8="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-L2vkcKzmXJtf+J7db5TbDMBckrgqJ5qc0ZzVIdRlm0I=",

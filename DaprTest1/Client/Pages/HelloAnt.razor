@@ -1,0 +1,46 @@
+﻿@page "/helloant"
+@using DaprTest1.Shared
+@using System.Text.Json
+@inject HttpClient Http
+
+<h1>Hello Ant</h1>
+
+<p>This component demonstrates using of ant</p>
+
+<p><Button Type="primary">Hello Ant!</Button></p>
+
+<p><Button Type="primary" OnClick="@(()=>{ _visible1 = true; })">
+            DragInViewport
+        </Button></p>
+<p><Button Type="primary" OnClick="@(()=>{ _visible2 = true; })">
+            DragAcrossViewport
+        </Button> </p>
+
+        <Modal Title="@title"
+       Visible="@_visible1"
+       OnOk="(e)=>{_visible1 = false;}"
+       Draggable="@(true)"
+       OnCancel="(e)=>{_visible1 = false;}">
+    <p>Some contents...</p>
+    <p>Some contents...</p>
+    <p>Some contents...</p>
+</Modal>
+
+<Modal Title="@title"
+       Visible="@_visible2"
+       OnOk="(e)=>{_visible2 = false;}"
+       Draggable="@(true)"
+       DragInViewport="@(false)"
+       OnCancel="(e)=>{_visible2 = false;}">
+    <p>Some contents...</p>
+    <p>Some contents...</p>
+    <p>Some contents...</p>
+</Modal>
+
+@code {
+
+    string title = "可拖动的Model";
+    bool _visible1 = false;
+    bool _visible2 = false;
+
+}

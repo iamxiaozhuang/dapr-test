@@ -1,0 +1,27 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: sendemail
+  namespace: dapr-test1
+spec:
+  type: bindings.smtp
+  version: v1
+  metadata:
+  - name: host
+    value: "smtp.163.com"
+  - name: port
+    value: "25"
+  - name: user
+    value: "iamxiaozhuang"
+  - name: password
+    value: "TJIPOBKYDWWNMPJG"
+  - name: skipTLSVerify
+    value: true
+  - name: emailFrom
+    value: "iamxiaozhuang@163.com"
+  - name: emailTo
+    value: "iamxiaozhuang@163.com"
+  - name: subject
+    value: "test dapr output bindings"
+  - name: priority
+    value: "1"

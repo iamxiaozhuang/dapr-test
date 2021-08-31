@@ -1,4 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="/" Path="D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\" />
   <ContentRoot BasePath="/" Path="D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/AntDesign" Path="C:\Users\pesu\.nuget\packages\antdesign\0.9.3\build\..\staticwebassets\" />
 </StaticWebAssets>

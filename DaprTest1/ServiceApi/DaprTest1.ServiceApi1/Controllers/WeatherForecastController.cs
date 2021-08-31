@@ -41,9 +41,11 @@ namespace DaprTest1.ServiceApi1.Controllers
 
         [Topic("pubsub", "TestEventName")]
         [HttpPost(nameof(SubscribleTestEvent))]
-        public async Task SubscribleTestEvent(TestEventModel eventModel)
+        public async Task SubscribleTestEvent(TestEventModel eventModel, [FromServices] DaprClient daprClient)
         {
-             await Task.CompletedTask;
+            string emailContent = $"Event Data, Code:{eventModel.Code} Amount:{eventModel.Amount}";
+            await daprClient.InvokeBindingAsync("sendemail", "create", emailContent);
+             //await Task.CompletedTask;
         }
     }
 }

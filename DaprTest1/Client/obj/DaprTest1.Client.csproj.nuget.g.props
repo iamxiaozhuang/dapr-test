@@ -19,6 +19,7 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\5.0.7\build\net5.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\5.0.7\build\net5.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)antdesign\0.9.3\buildTransitive\AntDesign.props" Condition="Exists('$(NuGetPackageRoot)antdesign\0.9.3\buildTransitive\AntDesign.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\pesu\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\5.0.7</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>

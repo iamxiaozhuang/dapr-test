@@ -134,3 +134,6 @@ D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\obj\Debug\net5.0\DaprTest1.Server.pd
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\obj\Debug\net5.0\DaprTest1.Server.genruntimeconfig.cache
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\bin\Debug\net5.0\Dapr.AspNetCore.dll
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\obj\Debug\net5.0\DaprTest1.Server.MvcApplicationPartsAssemblyInfo.cs
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\bin\Debug\net5.0\AntDesign.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Server\bin\Debug\net5.0\OneOf.dll

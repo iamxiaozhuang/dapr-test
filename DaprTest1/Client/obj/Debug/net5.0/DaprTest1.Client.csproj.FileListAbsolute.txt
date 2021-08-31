@@ -1276,3 +1276,14 @@ D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\RazorDeclaration\Pa
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\PubSub.razor.g.cs
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\Razor\Pages\NavMenu.razor.g.cs
 D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\Razor\Pages\PubSub.razor.g.cs
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\_framework\AntDesign.dll.gz
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll.gz
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\_framework\OneOf.dll.gz
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\_framework\AntDesign.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\bin\Debug\net5.0\wwwroot\_framework\OneOf.dll
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\HelloAnt.razor.g.cs
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\Razor\Pages\HelloAnt.razor.g.cs
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\build-gz\gXsKewTQ.gz
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\build-gz\lBTo+EXn.gz
+D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\obj\Debug\net5.0\build-gz\SY1cBlox.gz

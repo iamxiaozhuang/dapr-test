@@ -82,6 +82,20 @@ using DaprTest1.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\_Imports.razor"
+using AntDesign;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\NavMenu.razor"
+using System.Threading;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,7 +104,7 @@ using DaprTest1.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\NavMenu.razor"
+#line 48 "D:\K8s\Dapr\Test\dapr-test\DaprTest1\Client\Pages\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
@@ -101,9 +115,21 @@ using DaprTest1.Client.Shared;
         collapseNavMenu = !collapseNavMenu;
     }
 
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var timer = new Timer(new TimerCallback(_ =>
+            {
+                uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
+            }), null, 2000, 2000);
+        }
+    }
+
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager uriHelper { get; set; }
     }
 }
 #pragma warning restore 1591

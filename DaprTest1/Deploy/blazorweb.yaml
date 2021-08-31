@@ -22,9 +22,29 @@ spec:
     spec:
       containers:
       - name: blazorweb
-        image: dapr-test1/blazorweb:1.0
+        image: dapr-test1/blazorweb:3.0
         imagePullPolicy: IfNotPresent
         ports:
           - name: http
             containerPort: 80
             protocol: TCP
+            
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: blazorweb
+  namespace: dapr-test1
+  labels:
+    app: blazorweb
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 32500
+      protocol: TCP
+      name: blazorweb
+  selector:
+    app: blazorweb

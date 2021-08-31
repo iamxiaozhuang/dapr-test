@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: serviceapi1
-        image: dapr-test1/serviceapi1:1.0
+        image: dapr-test1/serviceapi1:3.0
         imagePullPolicy: IfNotPresent
         ports:
           - name: http
